@@ -1,0 +1,48 @@
+.header {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F2E41;
+  }
+  
+  .header-menu a {
+    text-decoration: none;
+    color: black;
+  }
+  .logo {
+    font-size: 32px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  .logo-a {
+    text-decoration: none;
+    cursor: pointer;
+  }  
+  .menu-option {
+    font-size: 20px;
+    margin-left: 12px;
+    padding: 6px;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .logo {
+      font-size: 26px;
+    }
+    .menu-option {
+      font-size: 18px;
+      margin-left: 10px;
+    }
+  }
+  @media only screen and (max-width: 512px) {
+    .logo {
+      font-size: 20px;
+    }
+    .menu-option {
+      font-size: 16px;
+      margin-left: 8px;
+    }
+  }

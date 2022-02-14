@@ -1,0 +1,140 @@
+.list-container{
+    max-width: 60%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.avatar-icon{
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 50px;
+    margin-right: 2rem;
+}
+
+.flex-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    justify-content: space-evenly;
+}
+
+.item{
+    display: flex;
+    padding: 1rem;
+}
+
+.developer-name{
+    margin: auto;
+    font-size: large;
+    font-weight: 600;
+    padding-right: 0.5rem;
+    color: blue;
+}
+
+.add-developer-title{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    color: #3F3D56;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.add-developer-btn{
+    padding: 1rem;
+    border-radius: 15px;
+    background-color:  #7C639F;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 29px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.linkButton{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.github-repo-display{
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.updatedTimeDisplay{
+    color: #3F3D56;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.repo-heading{
+    display: inline-flex;
+}
+
+.project-description{
+    padding-top: 1rem;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+    color: #3F3D56;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .add-developer-title{
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 26px;
+        color: #3F3D56;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .project-description{
+        padding-top: 1rem;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3F3D56;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .add-developer-title{
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 26px;
+        color: #3F3D56;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .project-description{
+        padding-top: 1rem;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3F3D56;
+    }
+}

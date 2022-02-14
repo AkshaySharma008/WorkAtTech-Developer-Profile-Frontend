@@ -1,0 +1,69 @@
+.modal-inner {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.bar{
+    color: black;
+    background-color: black;
+    height: 1px;
+    width: 80%;
+}
+
+.modal-label{
+    text-align: left;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.inputFieldName{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    padding-left: 0.5rem;
+}
+
+.inputfield-Icon{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.inputField{
+    display: inline-flex;
+}
+
+.input{
+    padding: 0.8rem;
+    margin: 1rem 0rem;
+    max-width: 60%;
+}
+
+.flex-end{
+    display: inline;
+    text-align: end;
+    margin-right: 1rem;
+}
+
+.btn{
+    padding: 8px 24px;
+    margin: 4px;
+    border-radius: 25px;
+}
+
+.cancel{
+    border: none !important;
+    background: none !important;
+    cursor: pointer;
+}
+
+
+.submit{
+    background-color: #7C639F;
+    cursor: pointer;
+}

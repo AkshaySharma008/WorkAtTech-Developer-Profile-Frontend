@@ -1,0 +1,62 @@
+.background{
+    background-color: #2F2E41;
+    padding: 12px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-title{
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 98px;
+    color: #FFFFFF;
+    margin: auto;
+    max-width: 40%;
+}
+.header-icon{
+    margin: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+        .flex{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .header-title{
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 38px;
+            color: #FFFFFF;
+            margin: auto;
+            max-width: 80%;
+           text-align: center;
+        }
+        .header-icon{
+            max-height: 40rem;
+            max-width: 40rem;
+        }
+}
+
+@media only screen and (max-width: 512px) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-title{
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+        margin: auto;
+        max-width: 80%;
+        text-align: center;
+    }
+    .header-icon{
+        max-height: 40rem;
+        max-width: 40rem;
+    }
+}

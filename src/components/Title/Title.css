@@ -1,0 +1,32 @@
+.title{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+    color: #3F3D56;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .title{
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 26px;
+        color: #3F3D56;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .title{
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 26px;
+        color: #3F3D56;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
